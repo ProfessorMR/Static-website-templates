@@ -1,0 +1,568 @@
+@import 'vendor/reset.css';
+
+@font-face {
+    font-family: 'Yekan';
+    src:url('../../font/Yekan/Yekan.eot') format('eot'),
+        url('../../font/Yekan/Yekan.ttf') format('truetype'),
+        url('../../font/Yekan/Yekan.woff') format('woff'),
+        url('../../font/Yekan/Yekan.woff2') format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Yekan';
+    direction: rtl;
+}
+
+body.active{
+    overflow: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+.hamburger-icon svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#responsive-navigation{
+    display: none;
+}
+
+/* header */
+
+header{
+    width: 100%;
+}
+
+header nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+header nav .navbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .navbar-right{
+    display: flex;
+}
+
+header nav .navbar-right ul{
+    display: flex;
+}
+
+header nav .navbar-right ul li{
+    margin: 0 10px;
+}
+
+header nav .navbar-right ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+header nav .navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+header nav .navbar-left ul{
+    display: flex;
+    margin-left: 30px;
+}
+
+header nav .navbar-left ul li{
+    margin: 0 10px;
+}
+
+header nav .navbar-left ul li svg{
+    font-size: 20px;
+    color: #000;
+}
+
+header nav .navbar-left img{
+    width: 70px;
+}
+
+/* slide */
+
+header #slide{
+    background-image: url('../../images/slide.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+header #slide .slider{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+header #slide .slider span{
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    font-size: 100px;
+    color: #e1e1e1;
+    font-weight: 900;
+}
+
+header #slide .slider .slide-desc{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+header #slide .slider .slide-desc h1{
+    font-size: 90px;
+    margin-right: 250px;
+    margin-top: 10px;
+    color: #505050;
+}
+
+header #slide .slider .slide-desc h2{
+    font-size: 75px;
+    color: #222222;
+}
+
+/* slide */
+
+/* header */
+
+/* ----------------------------------------- */
+
+/* main */
+
+#main{
+    width: 100%;
+}
+
+/* hanging lamp */
+
+#hanging-lamp{
+    width: 100%;
+    background-color: #c08f33;
+    position: relative;
+    display: flex;
+    z-index: -2;
+}
+
+#hanging-lamp .overlay-bg-color{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 90%;
+    background-color: #fff;
+    z-index: -1;
+}
+
+#hanging-lamp .hanging-lamp{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right{
+    display: flex;
+    background-color: #fff;
+    width: 65%;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right{
+    position: relative;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #c08f33;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right p{
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .description-right a{
+    padding: 10px 20px;
+    background-color: #c08f33;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-right .image-right img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    text-align: center;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left .description-left{
+    width: 100%;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left .description-left h1,
+#hanging-lamp .hanging-lamp .hanging-left .description-left h2{
+    font-size: 30px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left .description-left h1{
+    margin-top: 10px;
+}
+
+#hanging-lamp .hanging-lamp .hanging-left .description-left h2{
+    margin-top: 20px;
+}
+
+/* hanging lamp */
+
+/* hanging lamp two */
+
+#hanging-lamp-two{
+    width: 100%;
+    height: 560px;
+    position: relative;
+    display: flex;
+}
+
+#hanging-lamp-two .overlay-bg-color-two{
+    background-image: url('../../images/hang.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 36.7%;
+}
+
+#hanging-lamp-two .hanging-lamp-two{
+    display: flex;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-right{
+    width: 65%;
+    height: 560px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left{
+    width: 35%;
+    height: 560px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img{
+    width: 150px;
+    height: 200px;
+}
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3{
+    margin: 10px;
+}
+
+
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h5{
+    margin: 5px;
+}
+
+/* hanging lamp two */
+
+/* sofa */
+
+#sofa{
+    width: 100%;
+    background-color: #353e74;
+    position: relative;
+    display: flex;
+    z-index: -2;
+}
+
+#sofa .sofa-cover{
+    position: absolute;
+    top: 0;
+    right: 94%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff;
+}
+
+#sofa .sofa{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sofa .sofa .sofa-left{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 65%;
+}
+
+#sofa .sofa .sofa-left .description-left{
+    position: relative;
+    margin: 20px;
+}
+
+#sofa .sofa .sofa-left .description-left h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #353e74;
+}
+
+#sofa .sofa .sofa-left .description-left p{
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+#sofa .sofa .sofa-left .description-left a{
+    padding: 10px 20px;
+    background-color: #353e74;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#sofa .sofa .sofa-left .image-left img{
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#sofa .sofa .sofa-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    text-align: center;
+}
+
+#sofa .sofa .sofa-right .description-right{
+    width: 100%;
+}
+
+#sofa .sofa .sofa-right .description-right h1,
+#sofa .sofa .sofa-right .description-right h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+#sofa .sofa .sofa-right .description-right h1{
+    margin-top: 10px;
+}
+
+#sofa .sofa .sofa-right .description-right h2{
+    margin-top: 20px;
+}
+
+/* sofa */
+
+/* sofa two */
+
+#sofa-two{
+    width: 100%;
+    height: 560px;
+    position: relative;
+    display: flex;
+}
+
+#sofa-two .sofa-cover-two{
+    background-image: url('../../images/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 36.7%;
+    left: 0;
+}
+
+#sofa-two .sofa-two{
+    display: flex;
+}
+
+#sofa-two .sofa-two .sofa-two-left{
+    width: 65%;
+    height: 560px;
+}
+
+#sofa-two .sofa-two .sofa-two-right{
+    width: 35%;
+    height: 560px;
+}
+
+#sofa-two .sofa-two .sofa-two-right ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#sofa-two .sofa-two .sofa-two-right ul li{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#sofa-two .sofa-two .sofa-two-right ul li img{
+    width: 150px;
+    height: 200px;
+}
+
+#sofa-two .sofa-two .sofa-two-right ul li h3{
+    margin: 10px;
+}
+
+
+#sofa-two .sofa-two .sofa-two-right ul li h5{
+    margin: 5px;
+}
+
+/* sofa two */
+
+/* counters */
+
+#counters{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #80c3f0;
+    display: flex;
+}
+
+#counters .counters{
+    width: 100%;
+    display: flex;
+}
+
+#counters .counters .counters-item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#counters .counters .counters-item svg{
+    font-size: 35px;
+}
+
+#counters .counters .counters-item .counter{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+#counters .counters .counters-item .counter:not(.is-visible){
+    visibility: hidden;
+}
+
+#counters .counters .counters-item h5{
+    font-size: 18px;
+}
+
+/* counters */
+
+/* main */
+
+/* ----------------------------------------- */
+
+/* footer */
+
+#footer{
+    background-color: #202020;
+    padding: 70px 0;
+    display: flex;
+}
+
+#footer .footer{
+    width: 100%;
+    text-align: center;
+}
+
+#footer .footer h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#footer .footer .social ul{
+    display: flex;
+    justify-content: center;
+}
+
+#footer .footer .social ul li{
+    margin: 0 10px;
+}
+
+#footer .footer .social ul li a{
+    color: #fff;
+}
+
+#footer .footer .social ul li a svg{
+    font-size: 20px;
+}
+
+#footer .footer .footer-desc{
+    padding-top: 30px;
+    border-top: 1px solid #131313;
+    width: 400px;
+    margin: 30px auto;
+}
+
+#footer .footer .footer-desc p{
+    color: #fff;
+    line-height: 25px;
+}
+
+/* footer */
