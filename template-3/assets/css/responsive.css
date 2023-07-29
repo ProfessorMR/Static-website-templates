@@ -1,0 +1,129 @@
+@media screen and (max-width: 1200px){
+    .monkey .monkey-title{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #header{
+        height: 550px;
+    }
+
+    .wolf .wolf-content p{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wolf .wolf-content{
+        margin: 0;
+    }
+    
+    .wolf .wolf-content p{
+        width: 400px;
+        margin: auto;
+        background-color: #483650ea;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+    .monkey{
+        justify-content: space-evenly;
+    }
+
+    .monkey .monkey-title{
+        text-align: center;
+        color: #fff;
+    }
+
+    .monkey .monkey-title h1{
+        font-size: 25px;
+    }
+
+    .monkey .monkey-title p{
+        font-size: 17px;
+    }
+
+    .monkey .monkey-content p{
+        width: 400px;
+        margin: auto;
+    }
+
+    #footer .overlay .footer-desc p{
+        width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 95%;
+    }
+
+    #header{
+        height: 450px;
+    }
+
+    .sky{
+        height: 700px;
+    }
+
+    .moon{
+        top: 80%;
+        width: 80px;
+    }
+
+    .wolf .wolf-child{
+        height: 550px;
+    }
+
+    .wolf .wolf-title{
+        width: 90%;
+        margin: auto;
+    }
+
+    .wolf .wolf-content p{
+        width: 90%;
+    }
+    
+    .monkey .monkey-content p{
+        width: 90%;
+    }
+
+    #footer .overlay form{
+        width: 90%;
+    }
+
+    #footer .overlay .footer-desc p{
+        width: 90%;
+    }
+
+    #footer .overlay .footer-title{
+        width: 90%;
+        margin: auto;
+    }
+
+    #footer .overlay .social ul{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .moon{
+        top: 85%;
+        width: 70px;
+    }
+
+    #footer .overlay form input{
+        width: 90%;
+    }
+
+    #footer .overlay form button{
+        width: 120px;
+    }
+}
