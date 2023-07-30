@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'vazir';
+}
+
+@font-face {
+    font-family: 'vazir';
+    src:url('../../font/vazir.eot') format('eot'),
+        url('../../font/vazir.ttf') format('truetype'),
+        url('../../font/vazir.woff') format('woff'),
+        url('../../font/vazir.woff2') format('woff2');
+}
+
+body{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+}
+
+/* register */
+
+#register{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../images/back.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-page{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.register-page .register{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.register-page .register h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #11c287;
+    margin: 15px 0;
+}
+
+.register-page .register ul{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-page .register ul a{
+    color: #222;
+}
+
+.register-page .register ul a svg{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 7px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.register-page .register ul li:nth-child(1) a svg:hover{
+    background-color: #4fc54f;
+    color: #fff;
+    border: 1px solid #4fc54f;
+}
+
+.register-page .register ul li:nth-child(2) a svg:hover{
+    background-color: #e72424;
+    color: #fff;
+    border: 1px solid #e72424;
+}
+
+.register-page .register ul li:nth-child(3) a svg:hover{
+    background-color: #398dee;
+    color: #fff;
+    border: 1px solid #398dee;
+}
+
+.register-page .register h4{
+    color: #777;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.register-page .register form{
+    margin: 5px 0;
+    width: 45%;
+    text-align: center;
+}
+
+.register-page .register form .form-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    color: #e9e9e9;
+}
+
+.register-page .register form .form-item input{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #e9e9e9;
+    outline: none;
+}
+
+.register-page .register form .form-item input:focus{
+    border-bottom: 1px solid #afafaf;
+}
+
+.register-page .register form input[type=submit]{
+    padding: 10px;
+    width: 40%;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #11c287;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+::placeholder{
+    color: #e9e9e9;
+}
+
+.register-page .auth-login{
+    width: 35%;
+    height: 100%;
+    background-image: url('../../images/2.svg');
+    background-size: cover;
+    padding: 50px 0;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.register-page .auth-login img{
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.register-page .auth-login .login-content{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.register-page .auth-login .login-content h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-page .auth-login .login-content p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.register-page .auth-login .login-content a{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+}
+
+/* register */

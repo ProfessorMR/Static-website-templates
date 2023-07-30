@@ -1,0 +1,111 @@
+@media screen and (max-width: 1200px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .register-page .register h1{
+        font-size: 35px;
+    }
+
+    .login-page .login h1{
+        font-size: 35px;
+    }
+    
+    .register-page .register ul{
+        width: 30%;
+    }
+
+    .register-page .register form{
+        width: 55%;
+    }
+
+    .login-page .login form{
+        width: 55%;
+    }
+
+    .register-page .auth-login{
+        display: none;
+    }
+
+    .login-page .auth-register{
+        display: none;
+    }
+
+    .register-page .register{
+        width: 100%;
+    }
+
+    .login-page .login{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 576px){
+    .register-page .register h1{
+        font-size: 30px;
+    }
+
+    .register-page .register ul{
+        width: 45%;
+    }
+
+    .register-page .register h4{
+        font-size: 13px;
+    }
+
+    .register-page .register form{
+        width: 75%;
+    }
+
+    .login-page .login h1{
+        font-size: 30px;
+    }
+
+    .login-page .login ul{
+        width: 45%;
+    }
+
+    .login-page .login h4{
+        font-size: 13px;
+    }
+
+    .login-page .login form{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .register-page .register h1{
+        font-size: 27px;
+    }
+
+    .register-page .register ul{
+        width: 50%;
+    }
+
+    .register-page .register h4{
+        font-size: 12px;
+    }
+
+    .register-page .register form{
+        width: 80%;
+    }
+
+    .register-page .register h1{
+        font-size: 27px;
+    }
+
+    .login-page .login ul{
+        width: 50%;
+    }
+
+    .login-page .login h4{
+        font-size: 12px;
+    }
+
+    .login-page .login form{
+        width: 80%;
+    }
+}
