@@ -4,12 +4,11 @@ A website for the protection of animals.
 
 ## Screenshot
 
-![Design preview for the coffee website](./images/desktop-preview.png)
+![Design preview for the animal protection website](./images/desktop-preview.png)
 
 ## Built with
 
 - Html
-- Css
 - Css
 - Media query
 - Javascript

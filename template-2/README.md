@@ -4,7 +4,7 @@ This website is for introducing home furniture and lamps.
 
 ## Screenshot
 
-![Design preview for the coffee website](./images/desktop-preview.png)
+![Design preview for the furniture website](./images/desktop-preview.png)
 
 ## Built with
 
