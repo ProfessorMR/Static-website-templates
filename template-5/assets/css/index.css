@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'vazir';
+}
+
+@font-face {
+    font-family: 'vazir';
+    src:url('../../font/vazir.eot') format('eot'),
+        url('../../font/vazir.ttf') format('truetype'),
+        url('../../font/vazir.woff') format('woff'),
+        url('../../font/vazir.woff2') format('woff2');
+}
+
+body{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* full page */
+
+/* home page */
+
+.s1{
+    background-image: url('../../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home-page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.s1 ul{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1000;
+}
+
+.s1 ul li{
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.s1 ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.s1 .fp-arrow.fp-prev{
+    position: absolute;
+    left: 50px;
+    top: 85%;
+    border-width: 27px 27px 27px 0;
+}
+
+.s1 .fp-arrow.fp-next{
+    position: absolute;
+    right: 87%;
+    top: 85%;
+    border-width: 27px 0 27px 27px;
+}
+
+.s1 .slide h1{
+    color: #fff;
+    font-size: 40px;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.s1 .slide h1 a{
+    color: #fa450e;
+}
+
+/* home page */
+
+/* our services */
+
+.s2{
+    background-image: url('../../images/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s2 .our-services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s2 .our-services h3{
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+}
+
+.s2 .our-services h3 span{
+    color: #fa2a0e;
+}
+
+.s2 .our-services ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.s2 .our-services ul li{
+    width: 49%;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(255,255,255,.8);
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.s2 .our-services ul li a{
+    color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.s2 .our-services ul li a h4{
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.s2 .our-services ul li a svg{
+    font-size: 110px;
+}
+
+/* our services */
+
+/* our products */
+
+.s3{
+    background-image: url('../../images/3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s3 .our-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s3 .our-products h3{
+    font-size: 50px;
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.s3 .our-products h3 span{
+    color: #e9b62c;
+}
+
+.s3 .our-products ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.s3 .our-products ul li{
+    width: 49%;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(255,255,255,.8);
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.s3 .our-products ul li a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #000;
+}
+
+.s3 .our-products ul li a h4{
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.s3 .our-products ul li a img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+/* our products */
+
+/* contact us */
+
+.s4{
+    background-image: url('../../images/4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s4 .contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s4 .contact-us form{
+    width: 30%;
+}
+
+.s4 .contact-us form input{
+    width: 100%;
+    font-family: 'vazir';
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    background-color: rgba(0,0,0,0.8);
+    border: 2px solid #ccc;
+    color: #fff;
+    font-size: 16px;
+}
+
+.s4 .contact-us form textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    font-family: 'vazir';
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    border: 2px solid #ccc;
+    resize: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.s4 .contact-us form input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    background-color: #c00;
+    color: #fff;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.s4 .contact-us h3{
+    width: 100%;
+    text-align: right;
+    font-size: 50px;
+    color: #fff;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.s4 .contact-us h3 span{
+    color: #09afe2;
+}
+
+/* contact us */
+
+/* about us */
+
+.s5{
+    background-color: #000;
+    text-align: center;
+}
+
+.s5 .about-us{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.s5 .about-us .footer-content{
+    width: 100%;
+    color: #fff;
+}
+
+.s5 .about-us .footer-car{
+    margin-top: 40px;
+}
+
+.s5 .about-us .footer-car h2{
+    color: #fff;
+}
+
+.s5 .about-us ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 650px;
+}
+
+.s5 .about-us ul li{
+    width: 24%;
+    margin-top: 10px;
+}
+
+.s5 .about-us ul li a img{
+    width: 100%;
+    height: 100px;
+}
+
+.s5 .about-us .copytight{
+    margin-top: 70px;
+    color: #fff;
+}
+
+/* about us */
+
+/* change style in full page plugin */
+
+#fp-nav ul li .fp-tooltip{
+    font-family: 'vazir' !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background-color: #fff !important;
+}
+
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+    background-color: #c00 !important;
+}
+
+.fp-watermark{
+    display: none;
+}
+
+/* change style in full page plugin */
+
+/* full page */
