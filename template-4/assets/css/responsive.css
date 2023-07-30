@@ -1,0 +1,556 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        padding: 0 20px;
+    }
+
+    #about .main-section-title{
+        padding-left: 20px;
+    }
+
+    #about .main-section-title button{
+        width: 100%;
+    }
+
+    #project .container{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #project .box .box-item{
+        width: auto;
+    }
+
+    #project .box .box-item img{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #slider{
+        height: 500px;
+    }
+
+    #slider .slider-desc{
+        height: 100%;
+    }
+
+    #slider .slider-desc h1{
+        font-size: 40px;
+    }
+
+    #slider .slider-desc .typed span{
+        font-size: 25px;
+    }
+
+    header nav ul{
+        width: 45%;
+    }
+
+    #base-story .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #base-story .base-video{
+        width: 70%;
+    }
+
+    #base-story .base-story{
+        width: 70%;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    #about .about-team .about-team-item{
+        height: 270px;
+        width: 31.33%;
+    }
+
+    #beautifulText .beautifulText h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #article .post .date h2{
+        font-size: 13px;
+    }
+
+    #article .post .post-desc h3 {
+        font-size: 15px;
+    }
+    
+    #article .post .post-desc p{
+        font-size: 13px;
+    }
+
+    #single-content .single-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #single-content .single-content #main-content{
+        width: 70%;
+    }
+
+    #single-content .single-content #sidebar{
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    #footer .footer-content{
+        margin-bottom: 10px;
+    }
+
+    #footer .footer-content .hot-content ul li{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    #footer .footer-content .hot-content ul li a img{
+        width: 70px;
+    }
+
+    #footer .footer-content .quick-access ul li{
+        margin-bottom: 30px;
+    }
+
+    #footer .footer-content .portfolio ul li{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    #footer .footer-content .portfolio ul li a img{
+        width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #info{
+        display: none;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    body.activeOverflow{
+        overflow: hidden;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100%;
+        z-index: 100;
+        background-color: rgba(0,0,0,.9);
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+    }
+
+    header nav ul.active{
+        left: 0;
+    }
+
+    header nav ul li{
+        height: auto;
+        margin: 30px 0;
+    }
+
+    header nav .toggle-menu{
+        display: flex;
+        z-index: 101;
+    }
+
+    #base-story .base-story .base-title p{
+        line-height: 25px;
+    }
+
+    #base-story .base-story .base-story-item{
+        flex-wrap: wrap;
+    }
+
+    #base-story .base-story .base-story-item .item{
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    #base-story .base-video::before{
+        width: 270px;
+    }
+
+    #base-story .base-video::after{
+        height: 200px;
+    }
+
+    #about .main-section-title{
+        width: 70%;
+    }
+
+    #about .row{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about .about-team{
+        display: none;
+    }
+
+    #beautifulText .beautifulText h1{
+        font-size: 20px;
+    }
+
+    #article{
+        height: 1100px;
+    }
+
+    #article .article-post{
+        flex-direction: column;
+    }
+
+    #article .post{
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    #single-header svg{
+        font-size: 150px;
+    }
+
+    #single-content .single-content #main-content{
+        width: 95%;
+    }
+
+    #single-content .single-content #main-content .main-description p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #single-content .single-content #sidebar{
+        width: 95%;
+    }
+
+    #partner ul{
+        flex-wrap: wrap;
+    }
+
+    #partner ul li{
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    #footer .footer-about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer .footer-about .footer-about-title{
+        width: 70%;
+    }
+
+    #footer .footer-about .footer-about-title h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #footer .footer-about .footer-about-title p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #footer .footer-about .footer-about-content{
+        width: 70%;
+        margin-top: 30px;
+    }
+    
+    #footer .footer-about .footer-about-content .footer-social ul li a svg{
+        font-size: 22px;
+    }
+
+    #footer .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .footer-content div{
+        width: 70%;
+    }
+
+    #footer .footer-content .hot-content h3{
+        color: #fff;
+    }
+    
+    #footer .footer-content .quick-access h3{
+        color: #fff;
+    }
+
+    #footer .footer-content .portfolio h3{
+        color: #fff;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    #slider .slider-desc h1{
+        font-size: 30px;
+    }
+
+    #slider .slider-desc .typed span{
+        font-size: 20px;
+    }
+
+    #base-story .base-video{
+        width: 95%;
+    }
+
+    #base-story .base-story{
+        width: 95%;
+    }
+
+    #services{
+        height: 950px;
+    }
+
+    #services .tab-button ul{
+        flex-direction: column;
+        height: 250px;
+    }
+
+    #services .tab-button ul li{
+        width: 100%;
+        border-left: none;
+    }
+    
+    #services .tab-content .tab .content{
+        flex-direction: column;
+    }
+
+    #services .tab-content .tab .content-title{
+        width: 100%;
+    }
+
+    #services .tab-content .tab .content-image{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #about .main-section-title{
+        width: 95%;
+    }
+
+    #beautifulText .beautifulText h1{
+        font-size: 16px;
+    }
+
+    #article .post{
+        width: 95%;
+    }
+
+    #single-header{
+        height: 270px;
+    }
+
+    #single-header svg{
+        font-size: 130px;
+    }
+
+    #single-content .single-content #main-content .main-title h3{
+        font-size: 16px;
+    }
+
+    #single-content .single-content #main-content .main-description .comment .comment-item .comment-item-desc h3{
+        font-size: 15px;
+    }
+
+    #single-content .single-content #main-content .main-description p{
+        font-size: 12px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    #single-content .single-content #main-content .main-description .comment .comment-item img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #single-content .single-content #main-content .main-description .comment .comment-reply .comment-item-reply h3{
+        font-size: 15px;
+    }
+
+    #single-content .single-content #main-content .main-description .comment .comment-reply img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #single-content .single-content #sidebar .sidebar-item h3{
+        font-size: 16px;
+    }
+
+    #single-content .single-content #sidebar .sidebar-item h3::before{
+        width: 115px;
+    }
+
+    #single-content .single-content #sidebar .sidebar-item ul li{
+        font-size: 14px;
+    }
+
+    #footer .footer-about .footer-about-title{
+        width: 95%;
+    }
+
+    #footer .footer-about .footer-about-content{
+        width: 95%;
+    }
+    
+    #footer .footer-content div{
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .main-section-title h2{
+        font-size: 20px;
+    }
+    
+    #header-top .header-top-message{
+        width: 60%;
+    }
+
+    #header-top .header-top-message p{
+        font-size: 11px;
+    }
+
+    #header-top .header-top-social{
+        width: 40%;
+    }
+
+    #header-top .header-top-social ul li{
+        margin: 0 10px;
+    }
+
+    header nav .logo-brand{
+        width: 70px;
+    }
+
+    #slider{
+        height: 350px;
+    }
+
+    #slider .slider-desc h1{
+        font-size: 25px;
+    }
+
+    #slider .slider-desc .typed span{
+        font-size: 17px;
+    }
+
+    #base-story .base-video::before{
+        width: 170px;
+    }
+
+    #base-story .base-video::after{
+        height: 120px;
+    }
+
+    #base-story .base-story .base-story-item .item{
+        width: 100%;
+    }
+    
+    #services .tab-content .tab .content-title h3{
+        font-size: 16px;
+    }
+
+    #services .tab-content .tab .content-title p{
+        font-size: 13px;
+    }
+
+    #about .main-section-title p{
+        font-size: 14px;
+    }
+
+    #beautifulText .beautifulText h1{
+        line-height: 25px;
+    }
+
+    #article .main-section-title button{
+        width: 150px;
+        font-size: 13px;
+    }
+
+    #single-header{
+        height: 230px;
+    }
+
+    #single-header svg{
+        font-size: 100px;
+    }
+
+    #single-content .single-content #main-content .main-description form textarea{
+        font-size: 14px;
+    }
+
+    #partner ul li{
+        width: 100%;
+    }
+
+    #footer .footer-content{
+        margin-bottom: 60px;
+    }
+
+    #footer .footer-about .footer-about-title p{
+        font-size: 12px;
+    }
+
+    #footer .footer-about .footer-about-content .footer-social ul{
+        margin-top: 20px;
+    }
+
+    #footer .footer-about .footer-about-content .footer-social ul li a svg{
+        margin: 0 5px;
+        font-size: 20px;
+    }
+
+    #footer .footer-about .footer-about-content form{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .footer-about .footer-about-content form input{
+        width: 95%;
+    }
+
+    #footer .footer-about .footer-about-content form button{
+        margin-top: 15px;
+        width: 40%;
+    }
+
+    #footer .copy-right h5{
+        font-size: 13px;
+    }
+
+    #footer .copy-right p{
+        line-height: 25px;
+        font-size: 11px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+}
+
+@media screen and (max-width: 350px){
+    #services{
+        height: 1050px;
+    }
+}
