@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    .about .about-item h4{
+        font-size: 25px;
+    }
+
+    .lightbox .img-box{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about .about-btn{
+        margin-bottom: 30px;
+    }
+
+    .work .work-item-inner{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #home .home-content h1{
+        font-size: 30px;
+    }
+
+    #home .home-content p{
+        font-size: 25px;
+    }
+
+    .lightbox .img-box{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #home .home-content h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #home .home-content p{
+        font-size: 20px;
+    }
+
+    .about .about-content h4{
+        font-size: 25px;
+    }
+
+    .about .about-content p{
+        font-size: 13px;
+    }
+
+    .about .about-item h4{
+        font-size: 22px;
+    }
+
+    .service h4{
+        font-size: 25px;
+    }
+
+    .work h4{
+        font-size: 25px;
+    }
+    
+    .lightbox .img-box .controls .next svg{
+        margin-left: 60px;
+    }
+
+    .lightbox .img-box .controls .prev svg{
+        margin-right: 60px;
+    }
+
+    .contact .contact-img .title h4{
+        font-size: 25px;
+    }
+
+    footer h6{
+        font-size: 17px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    #home .home-content h1{
+        font-size: 20px;
+    }
+
+    #home .home-content p{
+        font-size: 17px;
+    }
+
+    .lightbox .img-box{
+        height: 500px;
+    }
+
+    .contact .social ul li a svg{
+        font-size: 25px;
+    }
+}
