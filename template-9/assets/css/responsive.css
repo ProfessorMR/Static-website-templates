@@ -1,0 +1,294 @@
+@media screen and (min-width: 576px){
+    .container{
+        max-width: 54rem;
+    }
+
+    .home .home-content h6{
+        font-size: 2rem;
+    }
+
+    .home .home-content h1{
+        font-size: 2.5rem;
+    }
+
+    .about .about-content .about-desc h2{
+        font-size: 2.8rem;
+    }
+
+    .about .about-content .about-desc h4{
+        font-size: 1.5rem;
+    }
+
+    .about .about-content .about-desc > p{
+        font-size: 1.4rem;
+    }
+
+    .about .about-content .about-desc .info .info-item{
+        flex: 0 0 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+
+    .about .title{
+        text-align: right;
+    }
+    
+    .about .title h1::before{
+        right: 5rem;
+    }
+    
+    .portfolio .tab-menu ul li{
+        font-size: 1.5rem;
+    }
+
+    .message .message-desc p{
+        font-size: 1.4rem;
+    }
+
+    .customer .customer-slider .customer-item .img img{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .contact form .input-group input{
+        flex: 0 0 calc(33.33% - 2rem);
+        max-width: calc(33.33% - 2rem);
+        margin-top: 0;
+    }
+
+    .contact form input[type=submit]{
+        width: 23rem;
+    }
+
+    .footer .footer-about h1{
+        font-size: 1.8rem;
+    }
+
+    .footer .footer-about p{
+        font-size: 1.4rem;
+    }
+
+    .footer ul li a{
+        font-size: 2rem;
+    }
+
+    .footer .copy-right p{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 72rem;
+    }
+
+    .title h1{
+        font-size: 2.7rem;
+    }
+
+    .title h1::before{
+        width: 4rem;
+    }
+
+    .title p{
+        font-size: 1.5rem;
+    }
+
+    .home .home-content h6{
+        font-size: 2.2rem;
+    }
+
+    .home .home-content h1{
+        font-size: 3.1rem;
+    }
+
+    .about .about-content .about-img{
+        display: block;
+    }
+
+    .services .service-item{
+        flex: 0 0 calc(50% - 1.5rem);
+        max-width: calc(50% - 1.5rem);
+    }
+
+    .skill .skill-desc{
+        flex: 0 0 calc(60% - 2.5rem);
+        max-width: calc(60% - 2.5rem);
+    }
+
+    .skill .skill-img{
+        flex: 0 0 calc(40% - 1.5rem);
+        max-width: calc(40% - 1.5rem);
+        display: flex;
+    }
+
+    .portfolio .portfolio-gallery .item{
+        flex: 0 0 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+    }
+
+    .portfolio .tab-menu ul li{
+        font-size: 1.6rem;
+    }
+
+    .message{
+        align-items: center;
+    }
+
+    .message .message-desc{
+        flex: 0 0 70%;
+        max-width: 0 0 70%;
+    }
+
+    .message .message-desc p{
+        text-align: right;
+    }
+
+    .message .message-link{
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin-top: 0;
+    }
+    
+    .customer{
+        padding: 10rem 0;
+    }
+
+    .customer .customer-slider .customer-item{
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .customer .customer-slider .customer-item .img h3{
+        font-size: 1.7rem;
+    }
+
+    .customer .customer-slider .customer-item .img h6{
+        font-size: 1.2rem;
+    }
+
+    .blog .blog-content{
+        flex: 0 0 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
+    }
+
+    .blog .blog-content img{
+        height: 22rem;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 96rem;
+    }
+
+    header .navbar .hamburger-menu{
+        display: none;
+    }
+
+    header .navbar ul{
+        display: flex;
+        position: static;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
+        text-align: right;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar ul li a.active::before{
+        width: 100%;
+        right: 0;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .home{
+        background-position: 0;
+    }
+
+    .home .home-content h6{
+        font-size: 2.5rem;
+    }
+
+    .home .home-content h1{
+        font-size: 4.5rem;
+    }
+
+    .about .about-content .about-img{
+        flex: 0 0 calc(33% - 1rem);
+        max-width: calc(33% - 1rem);
+    }
+
+    .about .about-content .about-desc{
+        flex: 0 0 calc(67% - 1rem);
+        max-width: calc(67% - 1rem);
+    }
+
+    .about .about-content .about-desc h2{
+        font-size: 3.2rem;
+    }
+
+    .about .about-content .about-desc h4{
+        font-size: 1.9rem;
+    }
+
+    .about .about-content .about-desc > p{
+        font-size: 1.5rem;
+    }
+
+    .about .about-content .about-desc .info .info-item p{
+        font-size: 1.4rem;
+    }
+
+    .services .service-item p{
+        font-size: 1.4rem;
+    }
+
+    .services .service-item{
+        flex: 0 0 calc(33% - 1.5rem);
+        max-width: calc(33% - 1.5rem);
+    }
+
+    .message .message-desc p{
+        font-size: 1.6rem;
+    }
+
+    .portfolio .portfolio-gallery .item{
+        flex: 0 0 calc(33.33% - 2rem);
+        max-width: calc(33.33% - 2rem);
+    }
+
+    .blog .blog-content{
+        flex: 0 0 calc(33.33% - 2rem);
+        max-width: calc(33.33% - 2rem);
+        margin-top: 0;
+    }
+
+    .blog .blog-content img{
+        height: 23rem;
+    }
+
+    .lightbox svg{
+        width: 4rem !important;
+        height: 4rem;
+    }
+
+    .lightbox img{
+        width: 70%;
+        height: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 114rem;
+    }
+}
