@@ -1,19 +1,17 @@
-# Pardis academy - Educational website
+# Mohammad Ramji's personal website - personal website
 
-An educational website for learning programming languages.
+A personal website to introduce the skills of the person in question.
 
 ## Screenshot
 
-![Design preview for the educational website](./images/desktop-preview.png)
+![Design preview for the personal website](./images/desktop-preview.png)
 
 ## Built with
 
 - Html
 - Css
 - Media query
-- Javascript
-- JQuery
-- Owl carousel
+- Bootstrap
 
 ## Author
 
