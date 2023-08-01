@@ -1,0 +1,28 @@
+*{
+    font-family: 'vazir';
+}
+
+@font-face {
+    font-family: 'vazir';
+    src:url('../../fonts/vazir.eot') format('eot'),
+        url('../../fonts/vazir.ttf') format('truetype'),
+        url('../../fonts/vazir.woff') format('woff'),
+        url('../../fonts/vazir.woff2') format('woff2');
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+.navbar-brand{
+    font-family: cursive;
+}
+
+.dropdown-menu.show{
+    text-align: right;
+}
+
+.skill-item h3{
+    font-family: cursive;
+}
