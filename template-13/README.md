@@ -1,6 +1,6 @@
 # Giso store - Clothing store website
 
-A website for introducing and selling special perfumes.
+A website for introducing and selling clothes.
 
 ## Screenshot
 
