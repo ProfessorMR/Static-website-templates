@@ -1,0 +1,61 @@
+@media screen and (max-width: 1200px) {
+    main .overview .overview-item {
+        width: calc(50% - 10px);
+        margin-top: 10px;
+    }
+
+    main .total-revenue {
+        flex-wrap: wrap;
+    }
+
+    main .total-revenue .total-revenue-profile {
+        width: 50%;
+        margin: auto;
+    }
+
+    main .total-revenue .total-revenue-graph {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .overlay.active-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .sidebar {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+
+    .sidebar.active-sidebar {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .main-content {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-content header .hamber p {
+        display: none;
+    }
+
+    main .overview .overview-item {
+        width: 100%;
+    }
+
+    main .total-revenue .total-revenue-profile {
+        width: 100%;
+    }
+}
