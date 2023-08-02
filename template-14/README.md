@@ -1,18 +1,17 @@
-# Giso store - Clothing store website
+# Admin panel - Admin panel template
 
-A website for introducing and selling clothes.
+A template for managing website users.
 
 ## Screenshot
 
-![Design preview for the clothing store website](./images/desktop-preview.png)
+![Design preview for the admin panel website](./images/desktop-preview.png)
 
 ## Built with
 
 - Html
 - Css
 - Media query
-- Bootstrap
-- JQuery
+- Javascript
 
 ## Author
 
