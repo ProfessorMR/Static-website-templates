@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        padding: 10px;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, .4);
+    }
+
+    .banner-slide-main .slider .slideshow {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .banner-slide-main .slider .mens-fashion {
+        display: none;
+    }
+
+    .banner-slide-main .header h6 {
+        display: none;
+    }
+
+    .banner-slide-main .header .search-btn {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .subscribe .right-subscribe h4 {
+        font-size: 18px;
+    }
+
+    .subscribe .right-subscribe .form-group button {
+        width: 50%;
+    }
+
+    .subscribe .right-subscribe .form-group input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner-slide-main .slider .slideshow .carousel-item-text h4 {
+        display: none;
+    }
+
+    .banner-slide-main .slider .slideshow .carousel-item-text h6 {
+        display: none;
+    }
+
+    .category-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .category-item {
+        width: 100%;
+    }
+}
